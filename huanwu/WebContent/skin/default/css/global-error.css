@@ -1,0 +1,31 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: gloabal-error
+ * @overview: 404 error
+ * @require: null
+ */
+
+.global-error {
+    width: 586px;
+    margin: 0 auto;
+}
+
+.global-error img {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.global-error .global-error-explain {
+    width: 586px;
+    font-size: 16px;
+    color: #5b5b5b;
+    margin-bottom: 40px;
+}
+
+.global-error .global-error-explain a,
+.global-error .global-error-explain a:hover{
+    color: #156ec6;
+    font-weight: bold;
+    margin:0 5px;
+}
+

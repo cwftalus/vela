@@ -1,0 +1,96 @@
+/**
+* @author:wkylin [wkylin@github.com]
+* @name: ui-tip
+* @overview: ui-tip
+* @require: null
+*/
+.ui-tip {
+    position: absolute;
+    top: 0;
+    right: -260px;
+    z-index: 1;
+    display:none;
+    width: 240px;
+    border: 1px solid #e1dad6;
+    border-radius: 3px;
+    background-color: #ededed;
+    color:#4d4d4d;
+    zoom: 1;
+}
+.umi-auction-list-item-hover .ui-tip{
+    display:block;}
+/** tip当中的小箭头 */
+.ui-tip-arrow {
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    width: 10px;
+    height: 15px;
+    background: url("../images/arrow.png") no-repeat 0 0;
+    font-size: 0;
+}
+
+
+.ui-tip-box {
+    padding:10px;
+}
+.ui-tip-ctn{
+    padding: 15px 15px 5px;
+    background-color:#fff;
+}
+
+.ui-tip-ctn{
+    margin-bottom: 0;
+    padding: 15px 15px 5px;
+    line-height: 1;
+}
+.ui-tip-ctn dt{
+    margin-bottom:5px;
+    font-size:14px;
+}
+.ui-tip-ctn dd{
+    margin: 0 0 10px;
+    padding-bottom: 8px;
+    border-bottom:1px dotted #b7b7b7;
+}
+.ui-notice {
+    position: absolute;
+    top: 30px;
+    left: -280px;
+    z-index: 8888;
+    width: 318px;
+    border: 1px solid #7d7a77;
+    border-radius: 3px;
+    background-color: #fff;
+
+}
+
+.ui-notice-arrow {
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    width: 9px;
+    height: 5px;
+    background: url("../images/arrow-notice.png") 0 0 no-repeat transparent;
+}
+.ui-notice-box{
+    color:#cbcbcb;
+}
+.ui-notice h3{
+    padding: 5px 10px;
+    border-bottom:1px solid #f1f1f1;
+    color:#535353;
+    font-size:14px;
+}
+.ui-notice-box ul{
+    padding:5px 10px;
+    color:#666;
+}
+.ui-notice h4{
+    padding: 5px 10px;
+    border-top:1px solid #f1f1f1;
+    color:#535353;
+    text-align: center;
+    font-size:14px;
+}
+

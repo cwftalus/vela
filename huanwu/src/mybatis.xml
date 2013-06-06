@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		
+		<typeAlias type="com.huanwu.entity.Users" alias="user" />
+
+		<!--
+		
+		<typeAlias type="cn.info.platform.entity.Exam" alias="exam" />
+		<typeAlias type="cn.info.platform.entity.JobTask" alias="jobTask" />
+		<typeAlias type="cn.info.platform.entity.Message" alias="message" />
+		<typeAlias type="cn.info.platform.entity.Voice" alias="voice" />
+		<typeAlias type="cn.info.platform.entity.TGroup" alias="TGroup"/>
+		<typeAlias type="cn.info.platform.entity.Role" alias="Role"/>
+		<typeAlias type="cn.info.platform.entity.Resc" alias="resc"/>
+		-->
+	</typeAliases>
+</configuration>

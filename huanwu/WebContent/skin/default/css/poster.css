@@ -1,0 +1,474 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: poster
+ * @overview: 海报详情
+ * @require: null
+ */
+
+.umi-poster {
+    position: relative;
+    margin-right: 36px;
+    margin-bottom: 20px;
+    padding: 15px 17px 20px;
+    width: 668px;
+    border: 1px solid #E5DFDB;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 3px #E2DBD6;
+    font-size: 14px;
+}
+
+.umi-poster h3 {
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: '\5fae\8f6f\96c5\9ed1';
+}
+
+.umi-poster h4 {
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.umi-poster h3 span {
+    font-size: 16px;
+}
+
+.umi-simdesc {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.umi-img-box {
+    position: relative;
+    margin-bottom: 15px;
+    height: 219px;
+    width: 305px;
+}
+
+.umi-img-box img {
+    display: block;
+}
+
+.ui-mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 304px;
+    height: 28px;
+    background-color: #000;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.img-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.umi-dtl a {
+    padding-left: 20px;
+    height: 18px;
+    background: url("../images/ui-icons.png") 0 0 no-repeat transparent;
+    color: #3366cc;
+
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.umi-dtl a:hover {
+    color: #3366cc;
+}
+
+.umi-pobox {
+    margin-left: 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+.umi-dfd {
+    display: inline-block;
+    margin-left: 80px;
+    padding-left: 20px;
+    height: 23px;
+    background: url("../images/ui-icons-ds.png") 0 center no-repeat transparent;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.fn-mb20 {
+    margin-bottom: 10px;
+}
+
+.umi-ppxx {
+    color: #fe0000;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.umi-ppindent {
+    margin-bottom: 15px;
+    padding: 0px 0 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.umi-ddpx {
+    position: relative;
+    width: 258px;
+    height: 34px;
+    background: url("../images/umi-ddpx.png") 0 0 no-repeat transparent;
+}
+
+.umi-ddpx .ddpx-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 0 0 0 15px;
+    width: 135px;
+    height: 34px;
+    outline: none;
+    border: 0 none;
+    background-color: transparent;
+    line-height: 34px;
+}
+
+.umi-ddpx span {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    display: block;
+    overflow: hidden;
+    width: 105px;
+    height: 34px;
+    text-indent: -9999em;
+}
+
+.umi-ppww {
+    width: 106px;
+    height: 34px;
+    background: url("../images/umi-ddpp.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.time-countdown {
+    position: relative;
+    margin: 10px 0 13px 0;
+    width: 261px;
+    height: 41px;
+    background: url("../images/timedowbg.png") 0 0 no-repeat transparent;
+    line-height: 36px;
+}
+
+.time-cdown {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.time-cdown-day {
+    left: 7px;
+}
+
+.time-cdown-hour {
+    left: 74px;
+}
+
+.time-cdown-minute {
+    left: 140px;
+}
+
+.time-down-second {
+    left: 206px;
+}
+
+.umi-pps-end,
+.umi-pps-no-stard {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    width: 310px;
+    border-bottom: 1px solid #cbcbcb;
+    color: #24b9b8;
+    font: 34px/34px '\5fae\8f6f\96c5\9ed1';
+    font-weight: bold;
+}
+
+.umi-pps-no-stard {
+    color: #fe0000;
+}
+
+.ft-darkred {
+    color: #ff0000;
+}
+
+.rw-box {
+    margin-top: 10px;
+    width: 320px;
+}
+
+.rw-box a.go {
+    display: block;
+    padding-right: 23px;
+    width: 90px;
+    height: 23px;
+    background: url("../images/go.png") no-repeat scroll right 0 transparent;
+    color: #666666;
+    line-height: 23px;
+}
+
+.rw-box a.go:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.umi-poster-page {
+    margin: 30px 0;
+}
+
+.ui-pos-table {
+    margin-bottom: 20px;
+}
+
+.ui-pos-table tbody .tr-bg {
+    background-color: #efefef;
+}
+
+.ui-pos-table th {
+    padding: 0 10px;
+    height: 30px;
+    background-color: #98c5ee;
+}
+
+.ui-pos-table td {
+    padding: 5px 10px 5px 10px;
+}
+
+.ui-pos-table .first {
+    width: 90px;
+}
+
+/* .umi-assistant */
+.umi-assistant, .ui-xbox {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px 25px;
+    width: 800px;
+    border: 1px solid #d4d3d3;
+    border-radius: 2px;
+    background-color: #fcf9ef;
+    box-shadow: 0 2px 3px #E2DBD6;
+}
+
+.umi-xbox-x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url("../images/xboxx.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.ui-xbox h3,
+.umi-assistant h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #edeae1;
+    font: 22px/1.5 '\5fae\8f6f\96c5\9ed1', '\5b8b\4f53', tahoma, arial, 'Hiragino Sans GB';
+}
+
+.umi-xbox-left {
+    display: inline;
+    float: left;
+    width: 460px;
+}
+
+.umi-xbox-right {
+    display: inline;
+    float: right;
+    width: 180px;
+}
+
+.umi-xbox-right a,
+.umi-xbox-right a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+
+.umi-assistant {
+    height: 495px;
+    height: 505 px\9;
+}
+
+.umi-assistant .umi-xbox-inner {
+    padding-top: 10px;
+    height: 420px;
+    background: url("../images/assistant.png") right bottom no-repeat transparent;
+}
+
+.umi-assistant .ui-xbox-form {
+    margin-top: 20px;
+}
+
+.umi-assistant .ui-xbox-form-item {
+    margin: 10px 0;
+}
+
+.umi-assistant .ui-xbox-form-item label {
+    display: block;
+    float: left;
+    padding-right: 20px;
+    width: 130px;
+    height: 26px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.umi-assistant .ui-xbox-form-item input {
+    height: 16px;
+    background: transparent;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.umi-assistant input.input-txt-readonly {
+    padding: 5px;
+    width: 560px;
+    border: 0 none;
+}
+
+.umi-assistant input.input-txt {
+    padding: 5px;
+    width: 90px;
+    border: 1px solid #bab8b3;
+    border-radius: 3px;
+    color: #fe9124;
+    font-weight: bold;
+}
+
+.umi-assistant input.fn-wxx {
+    width: 58px;
+}
+
+.umi-assistant input.fn-wwe {
+    width: 130px;
+}
+
+.umi-assistant input.input-checkbox {
+}
+
+.umi-assistant a.ui-xbox-form-cancel,
+.umi-assistant a.ui-xbox-form-submit {
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 81px;
+    height: 33px;
+    text-indent: -9999em;
+}
+
+.umi-assistant a.ui-xbox-form-cancel {
+    background: url("../images/xbox-cansle.png") 0 0 no-repeat transparent;
+}
+
+.umi-assistant a.ui-xbox-form-submit {
+    background: url("../images/xbox-submit.png") 0 0 no-repeat transparent;
+}
+
+body .fn-mlsi {
+    margin-top: 13px;
+    margin-left: 151px;
+}
+
+body .fn-mtbx {
+    margin: 15px 0 25px 0;
+}
+
+.umi-xbox-left .ui-xform-item {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.umi-xbox-left label {
+    display: block;
+    float: left;
+    width: 180px;
+    color: #444;
+    text-align: right;
+    font-weight: bold;
+}
+
+.umi-xbox-left .ui-xform-item-wkx {
+    position: relative;
+    display: block;
+    float: left;
+    width: 270px;
+    color: #fe9124;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ui-xform-item-wkx input {
+    padding: 5px;
+    width: 80px;
+    height: 16px;
+    border: 1px solid #c9c9c6;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fe9124;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.ui-xform-item-wkx .ui-xform-wkk {
+    position: absolute;
+    top: 35px;
+    right: 174px;
+}
+
+.ui-xform-item-last{
+    margin:20px 0;
+    height:60px;
+}
+.ui-xform-item-wkx a.ui-xform-wkk,
+.ui-xform-item-wkx a.ui-xform-wkk:hover{
+    color:#8c7e7e;
+    text-decoration: underline;
+    font-size:12px;
+}
+.ui-xform-item-wkx .ui-xform-wczk {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    overflow: hidden;
+    width: 98px;
+    height: 33px;
+    background: url("../images/xbox-cz.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+.umi-rechare-info{
+    padding:20px;
+    border-bottom:1px solid #edeae1;
+}
+.ft-green{
+    color:#6bac18;
+}
+
+

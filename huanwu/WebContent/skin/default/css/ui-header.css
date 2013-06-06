@@ -1,0 +1,458 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: ui-header
+ * @overview: ui-header
+ * @require: null
+ */
+
+.ui-header {
+    z-index:9999;
+    width:100%;
+}
+
+/* header top */
+.ui-header-top {
+    width: 100%;
+    height: 88px;
+    background: url("../images/header-bg.png") 0 0 repeat-x transparent;
+}
+
+.ui-logo {
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+    width: 448px;
+    height: 58px;
+}
+
+.ui-topbar {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    color: #fff;
+    _width: 200px;
+}
+
+.topbar-nav {
+    margin-top: 50px;
+}
+
+
+.ex-clause,
+.about-umi {
+    display: block;
+    float: right;
+    height: 18px;
+    color: #fff;
+    text-align: right;
+    line-height: 18px;
+}
+
+.about-umi {
+    width: 63px;
+    background: url("../images/about-umi.png") left center no-repeat transparent;
+    padding-left: 17px;
+}
+.ex-clause {
+    width: 50px;
+    background: url("../images/ex-clause.png") no-repeat scroll left 2px transparent;
+    text-align: right;
+    padding-left: 16px;
+}
+
+a.ex-clause:hover,
+a.about-umi:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.fn-bar{
+    display:block;
+    float:right;
+    width:4px;
+    height:16px;
+    background: url("../images/fn-bar.png") no-repeat scroll 0 2px transparent;
+    margin: 0px 7px 0 6px;
+}
+.top-nav-list{
+}
+.top-nav-list li.hover .ui-notice{
+    display:block;}
+.top-nav-list-item{
+    position:relative;
+    display: inline-block;
+    float:left;
+    margin-left: 15px;
+}
+.top-nav-tip-num{
+    position:absolute;
+    top: 9px;
+    left: 21px;
+    padding:1px 7px;
+    background-color:#ff0000;
+    color:#fff;
+}
+.top-nav-tip{
+    position:absolute;
+    top:30px;
+    left:0;
+    padding:1px 5px;
+    width: 100%;
+    _width:auto;
+    _display:inline;
+    border:1px solid #6b6b6b;
+    background-color: #eaeaea;
+    color:#323232;
+    text-align: center;
+}
+.aide-tip{
+    width:50px;
+}
+
+.nav-ucenter,
+.nav-notice,
+.nav-msg,
+.nav-aide,
+.nav-exit{
+    display:block;
+    overflow: hidden;
+    width:27px;
+    height:27px;
+    text-indent: -9999em;
+    cursor: pointer;
+}
+
+.nav-notice{
+    background: url("../images/notice.png") 0 0 no-repeat transparent;
+}
+.nav-notice:hover{
+    background: url("../images/notice-hover.png") 0 0 no-repeat transparent;
+}
+.nav-msg{
+    background: url("../images/msg.png") 0 0 no-repeat transparent;
+}
+
+.nav-aide{
+    background: url("../images/aide.png") 0 0 no-repeat transparent;
+}
+.nav-aide:hover{
+    background: url("../images/aide-hover.png") 0 0 no-repeat transparent;
+}
+.nav-exit{
+    background: url("../images/exit.png") 0 0 no-repeat transparent;
+}
+.nav-exit:hover{
+    background: url("../images/exit-hover.png") 0 0 no-repeat transparent;
+}
+
+.nav-ucenter{
+    background: url("../images/ucenter.png") 0 0 no-repeat transparent;
+}
+.nav-ucenter:hover{
+    background: url("../images/ucenter-hover.png") 0 0 no-repeat transparent;
+}
+/* signin form */
+.umi-signin-form {
+    display:none;
+    width: 100%;
+    height: 259px;
+    background: url("../images/umi-signin-form.png") center top no-repeat transparent;
+}
+
+.ui-signin-form-cnt {
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 120px;
+    width: 720px;
+}
+
+.ui-signin-form-cnt h3 {
+    margin-bottom: 20px;
+    width: 186px;
+    height: 28px;
+    background: url("../images/ui-signin-form-h.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+    line-height: 28px;
+}
+
+.ui-form input {
+    outline: none;
+    border: 0 none;
+}
+
+.ui-form .ui-form-item {
+    margin-bottom: 13px;
+    color: #cbcbcb;
+}
+
+.ui-form .ui-form-item a {
+    color: #cbcbcb;
+}
+
+.ui-form .ui-form-item a:hover {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.ui-signin-form-cnt .ui-input-text {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    padding: 3px 5px;
+    width: 262px;
+    height: 44px;
+    background: url("../images/ui-form-input.png") 0 0 no-repeat transparent;
+    color: #cbcbcb;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.ui-signin-form-cnt .ui-input-btn {
+    display: 48px;
+    width: 139px;
+    height: 48px;
+    background: url("../images/ui-form-input-btn.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.ui-signin-form-cnt .ui-input-checkbox,
+.ui-signin-form-cnt .ui-input-checked {
+    display: inline;
+    float: left;
+    margin-right: 5px;
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    background: url("../images/ui-input-checkbox.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.ui-signin-form-cnt .ui-input-checkbox {
+    background: url("../images/ui-input-checkbox.png") 0 0 no-repeat transparent;
+}
+
+.ui-signin-form-cnt .ui-input-checked {
+    background: url("../images/ui-input-checked.png") 0 0 no-repeat transparent;
+}
+
+.other-link {
+    margin-left: 10px;
+}
+.regist-link{
+    display:block;
+    width: 69px;
+    height: 40px;
+    position:absolute;
+    top: 82px;
+    right: 48px;
+    color: #cbcbcb;
+}
+.regist-link:hover{
+    color:#cbcbcb;
+    text-decoration: none;
+}
+.ui-signin-form-cnt .ui-form-error {
+    position: absolute;
+    top: 140px;
+    right: 200px;
+    bottom: 10px;
+    left: 350px;
+    padding: 2px 10px;
+    width: 145px;
+    height: 20px;
+    border: 1px solid #D64810;
+    color: #D64810;
+    line-height: 20px;
+}
+
+.umi-part-acnt {
+    padding-top: 15px;
+    height: 20px;
+    border-top: 1px solid #666666;
+    color: #cbcbcb;
+    line-height: 20px;
+}
+
+a.umi-acnt-weibo,
+a.umi-acnt-qq {
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 25px;
+    height: 18px;
+    color: #cbcbcb;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+a.umi-acnt-weibo {
+    background: url("../images/weibo-sina.png") 0 center no-repeat transparent;
+}
+
+a.umi-acnt-qq {
+    background: url("../images/weibo-qq.png") 0 center no-repeat transparent;
+}
+
+a.umi-acnt-weibo:hover,
+a.umi-acnt-qq:hover {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.ui-shutdown {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    background: url("../images/shutdow.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+    cursor:pointer;
+}
+
+/* umi-regist-form */
+.umi-regist-form {
+    display:none;
+    height: 420px;
+    background: url("../images/umi-regist-form.png") center top no-repeat transparent;
+}
+
+.ui-regist-form-cnt {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 960px;
+    color: #cbcbcb;
+}
+
+.umi-regist-box {
+    display: inline-block;
+    float: left;
+    width: 560px;
+    border-right: 1px solid #666;
+}
+
+.umi-regist-part {
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    width: 370px;
+}
+
+.ui-regist-form-cnt h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    font: 26px/1.2 '\5fae\8f6f\96c5\9ed1', '\5b8b\4f53', tahoma, arial;
+}
+
+.umi-regist-part p {
+    font-size: 14px;
+}
+
+.umi-regist-part .umi-regist-weibo,
+.umi-regist-part .umi-regist-qq {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 163px;
+    height: 45px;
+    text-indent: -9999em;
+}
+
+.umi-regist-part .umi-regist-weibo {
+    margin-right: 10px;
+    background: url("../images/umi-regist-weibo.png") 0 0 no-repeat transparent;
+}
+
+.umi-regist-part .umi-regist-qq {
+    background: url("../images/umi-regist-qq.png") 0 0 no-repeat transparent;
+}
+
+.ui-form-box {
+    display: inline-block;
+    float: left;
+    width: 296px;
+    height: 42px;
+    background: url("../images/umi-regist-input.png") 0 0 no-repeat transparent;
+}
+
+.ui-form-box .ui-label {
+    display: inline-block;
+    padding-left: 20px;
+    width: 65px;
+    color: #fff;
+    font: 14px/42px '\5b8b\4f53', tahoma, arial;
+    font-weight: bold;
+}
+
+.ui-form-identicode{
+    width: 185px;
+    background: url("../images/umi-identicode.png") 0 0 no-repeat transparent;
+}
+
+.identicode{
+    display: inline-block;
+    float:left;
+    margin-left: 8px;
+    width:104px;
+    height:42px;
+    line-height: 42px;
+}
+.ui-form-box .ui-label {
+    display: inline-block;
+    padding-left: 20px;
+    width: 65px;
+    color: #fff;
+    font: 14px/42px '\5fae\8f6f\96c5\9ed1','\5b8b\4f53', tahoma, arial;
+    font-weight: bold;
+}
+
+.ui-form-box .ui-form-input-text {
+    display: inline-block;
+    padding: 0;
+    width: 200px;
+    height: 42px;
+    background-color: transparent;
+    color: #cbcbcb;
+    font-size: 14px;
+    line-height: 42px;
+}
+.ui-form-identicode .ui-form-input-text{
+    width: 93px;
+}
+.ui-form-error {
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+    width: 245px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.ui-form-explain {
+    margin-top: 10px;
+    width: 296px;
+    height: 23px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.ui-form-explain a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.ui-form-explain a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.umi-regist-form .ui-form-item-btn {
+    margin-top: 10px;
+    width: 295px;
+    height: 45px;
+    background: url("../images/umi-regist-form-btn.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+

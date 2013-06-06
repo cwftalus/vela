@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+.user_ba {
+	background-image: url(../images/user.png);
+}
+
+.content {
+	width: 100%;
+}
+
+.log_l1 {
+	width: 100%;
+	height: 16px;
+	background: #F6F6F6;
+}
+
+.log_l2 {
+	width: 100%;
+	height: 80px;
+	background: #1786DE;
+}
+
+.log_login {
+	width: 950px;
+	height: 377px;
+	margin: auto;
+	margin-top: -60px;
+}
+
+.log_login_l {
+	width: 605px;
+	float: left;
+	margin-top: 67px;
+}
+
+.log_login_r {
+	width: 332px;
+	height: 376px;
+	border: solid 1px #E6E6E6;
+	background: #F6F6F6;
+	float: right;
+}
+
+.login_r_title {
+	height: 59px;
+	width: 100%;
+	background: #3B95E2;
+}
+
+.login_r_title label {
+	display: inline;
+	width: 194px;
+	height: 32px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 16px;
+	background-position: 0px 0px;
+}
+
+.user_login_inpu {
+	background: url(../images/u_input_ba.gif) repeat-x;
+}
+
+.user_login_helan {
+	width: 290px;
+	height: 0px;
+	overflow: hidden;
+	margin: auto;
+	border-top: solid 1px #CCCCCC;
+	border-bottom: solid 1px #FFFFFF;
+}
+
+.login_r_user font {
+	color: #333333;
+	font-size: 14px;
+	width: 56px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 11px;
+	margin-top: 23px;
+}
+
+.login_r_user label {
+	color: #333333;
+	width: 230px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-top: 23px;
+}
+
+.login_r_user input {
+	color: #999999;
+	width: 225px;
+	height: 24px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 8px;
+	padding-left: 3px;
+	border: solid 1px #C6C6C6;
+}
+
+.login_r_pass font {
+	color: #333333;
+	font-size: 14px;
+	width: 56px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 11px;
+	margin-top: 3px;
+}
+
+.login_r_pass label {
+	color: #333333;
+	width: 230px;
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-top: 3px;
+}
+
+.login_r_pass input {
+	color: #999999;
+	width: 225px;
+	height: 24px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 8px;
+	padding-left: 3px;
+	border: solid 1px #C6C6C6;
+}
+
+.login_r_put {
+	width: 332px;
+	margin-top: 17px;
+}
+
+.login_r_put font {
+	float: left;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: 5px;
+	color: #0066FF;
+}
+
+.login_r_put a {
+	display: inline;
+	float: left;
+	margin-left: 85px;
+	width: 86px;
+	height: 37px;
+	float: left;
+	background-position: 0px -70px;
+}
+
+.other_login {
+	width: 290px;
+	height: 35px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.other_login font {
+	display: block;
+	height: 38px;
+	float: left;
+	line-height: 38px;
+	font-size: 12px;
+	color: #333333;
+}
+
+.other_login label {
+	display: block;
+	height: 38px;
+	float: left;
+	margin-top: 8px;
+}
+
+.other_reg {
+	width: 150px;
+	height: 40px;
+	margin: auto;
+	background-position: 0px -110px;
+}
+
+.other_reg a {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.user_login_err {
+	display: none;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	background-position: 5px -299px;
+	background-color: #FFFFCC;
+	width: 270px;
+	position: absolute;
+	height: 32px;
+	line-height: 32px;
+	border: solid 1px #FF3300;
+	color: #FF3300;
+	margin-left: 20px;
+	margin-top: -15px;
+}
+
+.user_login_yes {
+	border: solid 1px #006600;
+	background-position: 5px -335px;
+	color: #006600;
+}

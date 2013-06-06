@@ -1,0 +1,450 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: ui-grid
+ * @overview: ui-grid
+ * @require: null
+ */
+
+.ui-container {
+    background-color: #fff7f2;
+}
+
+.ui-grid {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.ui-content {
+    margin-top: 20px;
+}
+
+.ui-grid-col {
+    display: inline-block;
+    float: left;
+}
+
+/* 两栏 */
+.umi-auction-list {
+    margin-right: 30px;
+    width: 710px;
+    _width: 700px;
+    _margin-right: 20px;
+}
+
+.umi-sidebar {
+    width: 220px;
+}
+
+/* sigin register */
+a.umi-signin,
+a.umi-regist {
+    display: block;
+    overflow: hidden;
+    width: 220px;
+    height: 50px;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+a.umi-signin {
+    margin-bottom: 20px;
+    background-image: url("../images/signin.png");
+}
+
+a.umi-regist {
+    background-image: url("../images/register.png");
+}
+
+/* list */
+.umi-auction-list-item,
+.umi-auction-list-item-hover {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px 15px 3px 15px;
+    padding-top: 20px;
+    width: 680px;
+    border: 1px solid #e5dfdb;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px #e2dbd6;
+    z-index: 2;
+}
+
+.umi-auction-list-item-hover {
+    background-color: #fcfbe6;
+}
+
+.umiac-cnt {
+    display: inline-block;
+    float: left;
+    width: 434px;
+    line-height: 23px;
+}
+
+.umiac-img {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 206px;
+    color: #666;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.umiac-img img {
+    display: block;
+}
+
+.umiac-img h3 {
+
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.umiac-enshrine {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+}
+
+.umi-auction-list-item-hover .umiac-enshrine {
+    display: block;
+}
+
+.umiac-enshrine a {
+    display: block;
+    overflow: hidden;
+    height: 29px;
+    background: url("../images/enshrine.png") left center no-repeat #fff;
+    border: 1px solid #c4bbbc;
+    padding: 0 12px 0 30px;
+    color: #333;
+    font-size: 12px;
+    line-height: 29px;
+    font-weight: bold;
+    border-radius: 2px;
+    _width: 60px;
+    _padding: 0 5px 0 30px;
+}
+
+.umiac-enshrine a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.umiac-topic {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.umiac-desc {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #666666;
+    color: #666666;
+    font-size: 14px;
+}
+
+.ui-table {
+
+}
+
+.umiac-travel {
+    margin-top: 10px;
+}
+
+.umiac-travel th {
+    width: 40px;
+    vertical-align: top;
+}
+
+.ft-aurantius {
+    color: #ee5600;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umiac-status-box {
+    position: relative;
+    margin-top: 10px;
+    width: 448px;
+    height: 58px;
+}
+
+.umiac-status {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 448px;
+    height: 58px;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.not-started {
+    background-image: url("../images/not-started.png");
+}
+
+.under-way {
+    background-image: url("../images/under-way.png");
+}
+
+.has-ended {
+    background-image: url("../images/has-ended.png");
+}
+
+.umiac-status-txt {
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    width: 80px;
+    color: #fff;
+    font: 34px/1.5 '\5fae\8f6f\96c5\9ed1';
+}
+
+.umiac-status-action {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 80px;
+    height: 35px;
+    text-indent: -9999em;
+    cursor: pointer;
+}
+
+.umiac-status-info {
+    position: absolute;
+    top: 5px;
+    left: 354px;
+    color: #333;
+}
+
+.umiac-timeity {
+    position: relative;
+    margin: 0 0 7px 0;
+    margin-top: 0px;
+    height: 30px;
+    color: #333333;
+}
+
+.umiac-time {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    padding-left: 20px;
+    background: url("../images/ui-icons-a.png") no-repeat scroll 0 5px transparent;
+}
+
+.umiac-plity {
+    position: absolute;
+    top: 5px;
+    left: 240px;
+    padding-left: 20px;
+    background: url("../images/ui-icons-b.png") no-repeat scroll 0 4px transparent;
+}
+
+.umiac-chatic {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-indent: -9999em;
+    z-index: 666;
+}
+
+.chatic-new {
+    zoom: 1;
+    width: 62px;
+    height: 56px;
+    background: url("../images/new.png") 0 0 no-repeat transparent;
+}
+
+.chatic-end {
+    width: 62px;
+    height: 56px;
+    background: url("../images/end.png") 0 0 no-repeat transparent;
+}
+
+.umi-more {
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #efefef;
+    text-align: center;
+    font: 14px/40px '\5fae\8f6f\96c5\9ed1';
+}
+
+.umi-self-box {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 16px;
+    border: 1px solid #ded9d6;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px #e2dbd6;
+}
+
+.umi-avatar {
+    position: relative;
+}
+
+.umi-self-box h3 {
+    font-weight: bold;
+}
+
+.umi-self-box a.umi-zpmore {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    display: block;
+    color: #666666;
+
+}
+
+.umi-self-box a.umi-zpmore:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.umi-self-box li {
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+    border-top: 1px dotted #cbcbcb;
+}
+
+.umi-avatar img {
+    display: block;
+    float: left;
+}
+
+.nickname {
+    padding-left: 80px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nickname span {
+    display: inline-block;
+    width: 90px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.nickname a.edit-self {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background: url("../images/edit.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-self-info {
+    margin-top: 20px;
+    padding: 15px 0 0 0;
+    border-top: 1px dotted #d6d6d6;
+    line-height: 1.5;
+    position:relative;
+}
+
+a.recharge-btn {
+    position:absolute;
+    top: 13px;
+    right:0;
+    padding: 2px 5px;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    background-color: #d6d6d6;
+    color: #333333;
+    text-align: center;
+}
+
+/* umi-comment */
+.umi-comment {
+
+}
+
+.umi-comment-box {
+    padding: 5px;
+    border: 1px solid #f4ece8;
+    border-radius: 2px;
+    background-color: #f4ece8;
+}
+
+.umi-comment-textarea {
+
+}
+
+.comment-input {
+    padding: 3px;
+    width: 200px;
+    height: 20px;
+    outline: none;
+    border: 1px solid #e4ddd8;
+    border-radius: 2px;
+    color: #cbcbcb;
+    line-height: 20px;
+}
+
+.umi-comment-submit {
+    float: right;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.comment-loading {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.umi-comment-list {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.umi-comment-list-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 170px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.umi-s-avatar {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.cmt-content-box {
+    min-height: 30px;
+    _height: 30px;
+}
+
+.ft-gray {
+    color: #888;
+}
+
+.ft-qblue {
+    color: #0099cc;
+}
+
+.ft-red {
+    color: #f11212;
+}

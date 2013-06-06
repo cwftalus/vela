@@ -1,0 +1,627 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: leaguer
+ * @overview: 会员中心
+ * @require: null
+ */
+
+body .fn-mtlos {
+    margin-top: -20px;
+}
+
+body .fn-wd {
+    width: 535px;
+}
+
+body .bgfff {
+    background-color: #fff;
+}
+
+.bgfff .ui-footer {
+    background: url("../images/ui-footer-fbg.png") center top no-repeat transparent;
+}
+
+.umi-lsidebar {
+    display: inline;
+    float: left;
+    padding-top: 36px;
+    width: 164px;
+}
+
+.umi-lavart {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.umi-lavart  img {
+    display: block;
+}
+
+.umi-lavart .umi-lavart-eidt {
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    left: 35px;
+    display: block;
+    overflow: hidden;
+    width: 80px;
+    height: 22px;
+    background: url("../images/edit-aaa.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-contway {
+    margin-top: 30px;
+    padding-top: 15px;
+    width: 145px;
+    border-top: 1px dotted #cbcbcb;
+    word-break: break-all;
+}
+
+.umi-contway h3 {
+    position: relative;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-contway a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    color: #666666;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.umi-contway a:hover {
+    color: #666666;
+}
+
+.umi-contway h4 {
+    font-size: 14px;
+}
+
+.umi-contway p {
+    margin-bottom: 5px;
+}
+
+.umi-tsidebar {
+    position: absolute;
+    top: 0;
+    right: -262px;
+    padding-left: 28px;
+    width: 230px;
+}
+
+.umi-tsidebar .umi-yybbox {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 15px 0 15px 10px;
+    width: 215px;
+    background-color: #f1f1f1;
+}
+
+.umi-tsidebar .umi-yybbox h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-tsidebar .umi-yybbox .umi-yycz {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    overflow: hidden;
+    width: 60px;
+    height: 25px;
+    background: url("../images/umi-cz.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-tsidebar .umi-yybbox .yyct {
+    margin: 15px 0 5px 0;
+    color: #fe0000;
+    font: 34px/34px arial, 'Hiragino Sans GB', '\5fae\8f6f\96c5\9ed1', '\5b8b\4f53';
+}
+
+.umi-tsidebar .umi-yybqbox {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 15px 0 15px 10px;
+    width: 215px;
+    background-color: #f1f1f1;
+}
+
+.umi-tsidebar .umi-yybqbox h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-tsidebar .umi-yybqbox a {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    height: 18px;
+    color: #666;
+}
+
+.umi-tsidebar .umi-yybqbox a:hover {
+    color: #666;
+}
+
+.umi-tsidebar .umi-yybqbox li {
+    display: inline;
+    float: left;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    width: 67px;
+    height: 23px;
+    border-radius: 15px;
+    background-color: #dddddd;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+
+.umi-lmain {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 790px;
+    border: 1px solid #ffebe0;
+    border-top: none;
+}
+
+.umi-midbox {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+
+.umi-midbox p {
+    margin-bottom: 20px;
+}
+
+.umi-midbox-inner {
+    position: relative;
+    height: 60px;
+}
+
+.umi-midbox-inner span {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.umi-edit-info {
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 86px;
+    height: 25px;
+    background: url("../images/umi-bj.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-yyzts {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    display: block;
+    width: 101px;
+    height: 35px;
+    background: url("../images/umi-youxue.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-lsidebar-nav li {
+    margin-bottom: 20px;
+}
+
+.umi-lsidebar-nav a {
+    display: block;
+    padding-left: 35px;
+    width: 120px;
+    height: 30px;
+    color: #535353;
+    line-height: 30px;
+
+}
+
+.umi-lsidebar-nav a:hover {
+    color: #333;
+    text-decoration: none;
+
+}
+
+.umi-lsidebar-nav a.nav-itema {
+    background: url("../images/ui-edit-icona.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemb {
+    background: url("../images/ui-edit-iconb.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemc {
+    background: url("../images/ui-edit-iconc.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemd {
+    background: url("../images/ui-edit-icond.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-iteme {
+    background: url("../images/ui-edit-icone.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemf {
+    background: url("../images/aboutumi.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemg {
+    background: url("../images/esclause.png") 0 center no-repeat transparent;
+}
+
+.umi-lsidebar-nav a.nav-itemf:hover,
+.umi-lsidebar-nav a.nav-itemf-current {
+    background: url("../images/aboutumi-hover.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-lsidebar-nav a.nav-itemg:hover,
+.umi-lsidebar-nav a.nav-itemg-current {
+    background: url("../images/esclause-hover.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-lsidebar-nav a.nav-itema:hover,
+.umi-lsidebar-nav a.nav-itema-current {
+    background: url("../images/ui-edit-iconah.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-lsidebar-nav a.nav-itemb:hover,
+.umi-lsidebar-nav a.nav-itemb-current {
+    background: url("../images/ui-edit-iconbh.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-lsidebar-nav a.nav-itemc:hover,
+.umi-lsidebar-nav a.nav-itemc-current {
+    background: url("../images/ui-edit-iconch.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-lsidebar-nav a.nav-itemd:hover,
+.umi-lsidebar-nav a.nav-itemd-current {
+    background: url("../images/ui-edit-icondh.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.umi-about h2 {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.umi-about h3 {
+    color: #535353;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.umi-about p {
+    color: #535353;
+}
+
+.umi-lsidebar-nav a.nav-iteme:hover,
+.umi-lsidebar-nav a.nav-iteme-current {
+    background: url("../images/ui-edit-iconeh.png") 0 center no-repeat transparent;
+    color: #fff;
+}
+
+.ui-pwd-form {
+    margin-bottom: 30px;
+    height: 530px;
+    font-size: 14px;
+}
+
+.ui-pwd-form .ui-pwd-form-error {
+    color: #f11212;
+}
+
+.ui-pwd-form h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.ui-pwd-form input {
+    display: block;
+    float: left;
+    padding: 2px 5px;
+    height: 23px;
+    outline: none;
+    border: 1px solid #c6dbe6;
+    vertical-align: middle;
+    line-height: 23px;
+}
+
+.ui-pwd-form-item {
+    margin: 10px 0;
+}
+
+.ui-pwd-form-item label {
+    display: block;
+    float: left;
+    width: 94px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.ui-pwd-form .ui-pwd-form-submit {
+    overflow: hidden;
+    margin-top: 16px;
+    width: 88px;
+    height: 28px;
+    border: 0;
+    background: url("../images/save.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-setavart-form {
+    height: 560px;
+
+}
+
+.umi-setavart-form .umi-setav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.umi-updwa {
+    margin-top: 30px;
+}
+
+.umi-updwa img {
+    display: block;
+    float: left;
+}
+
+.umi-updwabox {
+    padding-left: 140px;
+}
+
+.umi-updwax {
+    display: block;
+    margin: 30px 0;
+    width: 75px;
+    height: 26px;
+    border: none;
+    background: url("../images/umi-upload.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-updwabox-error {
+    margin: 15px 0 30px 145px;
+    color: #f11212;
+    font-size: 14px;
+}
+
+.umi-settx {
+    height: 560px;
+
+}
+
+.umi-settx h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-tyx-form {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #cbcbcb;
+}
+
+.umi-tyx-form input {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.umi-tyx-form .fn-m20 {
+    margin: 0 0 20px 20px;
+}
+
+.umi-tyx-form .fn-mxd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.umi-tyx-last {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+.umi-settx .umi-tyx-form-submit {
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 88px;
+    height: 28px;
+    border: 0;
+    background: url("../images/save.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+}
+
+.umi-edit-self {
+    height: 560px;
+}
+
+.umi-edit-self h3 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-edit-self .umi-txbox {
+    width: 530px;
+}
+
+.umi-edit-self .umi-txbox-item {
+    float: left;
+    margin: 14px 0 0;
+    width: 250px;
+}
+
+.umi-edit-self label {
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 65px;
+    vertical-align: middle;
+    text-align: right;
+    line-height: 26px;
+}
+
+.umi-edit-self input {
+    display: block;
+    float: left;
+    padding: 3px 5px;
+    width: 140px;
+    height: 20px;
+    outline: 0 none;
+    border: 1px solid #c6dbe6;
+    line-height: 20px;
+}
+
+.umi-tybox {
+    margin-top: 14px;
+}
+
+.umi-tybox input {
+    width: 392px;
+}
+
+.umi-tybox textarea {
+    padding: 5px;
+    width: 392px;
+    height: 70px;
+    border: 1px solid #c6dbe6;
+}
+
+.umi-tybox .umi-tybox-sub {
+    display: block;
+    margin-top: 20px;
+    width: 101px;
+    height: 31px;
+    border: 0 none;
+    background: url("../images/saves.png") 0 0 no-repeat transparent;
+}
+
+.umi-edit-biaoq {
+    height: 560px;
+}
+
+.umi-edit-biaoq h3 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.umi-edit-biaoq h3 span {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.umi-biaoq-list {
+    padding: 30px 0;
+}
+
+.umi-biaoq-list-item {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.biaoq-box {
+    padding: 1px;
+    border: 1px solid #ead483;
+    background-color: #fff;
+}
+
+.biaoq-box-inner {
+    padding: 4px 6px;
+    height: 20px;
+    background-color: #fef6ce;
+    color: #5b5b5b;
+    line-height: 20px;
+    _display: inline;
+    zoom: 1;
+}
+
+.biaoq-box-inner img {
+    cursor: pointer;
+}
+
+.umi-add-bq {
+    padding: 30px 0;
+    border-top: 1px dotted #cbcbcb;
+}
+
+.umi-add-bq-box {
+    width: 213px;
+    height: 26px;
+    background: url("../images/add-bq.png") 0 0 no-repeat transparent;
+}
+
+.umi-add-bq-box input {
+    display: block;
+    float: left;
+    padding: 5px;
+    height: 16px;
+    outline: 0 none;
+    border: 0 none;
+    background-color: transparent;
+    line-height: 16px;
+    zoom: 1;
+}
+
+.umi-add-bq-txt {
+    width: 140px;
+}
+
+a.umi-add-bq-sub {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 26px;
+}
+
+a.umi-add-bq-sub:hover {
+    text-decoration: none;
+}
+
+.umi-add-bq-submmit {
+    display: block;
+    margin: 20px 0;
+    width: 86px;
+    height: 26px;
+    outline: 0 none;
+    border: 0 none;
+    background: url("../images/save-bq.png") 0 0 no-repeat transparent;
+}

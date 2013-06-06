@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.user_ba{ background-image:url(../images/user.png); }
+.content{ width:100%;}
+#reg_up{ padding-top:20px; padding-left:25px; padding-bottom:20px;}
+
+.r_xb,.r_cs,.r_yx,.r_zs,.r_li,.r_yz{height:38px; }
+
+.rc_button{ height:45px; padding-left:70px; margin-top:20px;}
+
+.rc_button a{ display:block; float:left; text-align:center; line-height:27px; margin-right:10px; width:87px; height:27px; background-position:0px -431px; }
+
+
+.xb_one{ font-weight:bold; display:block; height:30px; line-height:30px; width:70px; float:left;}
+.zs_two input{ border:solid 1px #CCCCCC; height:23px; line-height:23px; }
+
+#txt_address{ width:300px;}
+#txt_email{ width:220px;}
+
+/* 上传头像 */
+.user_map_up{position:absolute; border:solid 1px #E4E4E4; width:100px; height:127px; text-align:center; padding:5px; margin-left:550px;}
+.user_map_map{width:100px; margin:auto;}
+.user_map_sub{text-align:center; width:100px; height:25px; line-height:25px; margin-top:3px;}
+.user_map_sub a{display:block; width:100%; text-decoration:none; font-weight:bold; color:#FF0000; height:100%;}
+.user_map_sub a:hover{ background:#F6E3E6; }
+.user_map_up_msg{ position:absolute; width:270px; margin-left:-90px; margin-top:135px; text-align:center; display:none; height:25px; line-height:25px;   }

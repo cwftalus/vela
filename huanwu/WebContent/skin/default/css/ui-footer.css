@@ -1,0 +1,125 @@
+/**
+ * @author:wkylin [wkylin@github.com]
+ * @name: ui-footer
+ * @overview: ui-footer
+ * @require: null
+ */
+
+.ui-footer {
+    margin: 20px auto 0 auto;
+    padding: 40px 0 60px;
+    width: 960px;
+    background: url("../images/ui-footer-bg.png") center top no-repeat transparent;
+}
+
+.ui-footer-item {
+    display: inline;
+    float: left;
+    padding: 10px;
+    width: 150px;
+}
+
+.ui-footer h3 {
+    margin-bottom: 10px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ui-footer-item li {
+    margin: 5px 0;
+    height: 23px;
+    line-height: 23px;
+}
+
+.ui-footer-item li a,
+.ui-footer-item li a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+
+.ui-footer-last-item {
+    padding: 20px 10px;
+    width: 200px;
+    color: #ccc;
+    font-family: arial;
+}
+
+.ui-footer-last-item p {
+    line-height: 23px;
+}
+
+.ui-footer-about-item {
+    width: 210px;
+}
+
+.ui-footer-about-item li {
+    display: inline;
+    float: left;
+    width: 90px;
+    height: 23px;
+    line-height: 23px;
+}
+
+.ui-footer-rss-item li a,
+.ui-footer-about-item li a {
+    padding-left: 20px;
+}
+
+.ui-icon-rss,
+.ui-icon-notice,
+.ui-icon-sina,
+.ui-icon-qq,
+.ui-icon-google,
+.ui-icon-huaban,
+.ui-icon-renren,
+.ui-icon-diandian,
+.ui-icon-weixin,
+.ui-icon-twi {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+
+.ui-icon-rss {
+    background-image: url("../images/footer-icons-rss.png");
+}
+
+.ui-icon-notice {
+    background-image: url("../images/footer-icons-notice.png");
+}
+
+.ui-icon-sina {
+    background-image: url("../images/footer-icons-sina.png");
+}
+
+.ui-icon-qq {
+    background-image: url("../images/footer-icons-qq.png");
+}
+
+.ui-icon-google {
+    background-image: url("../images/footer-icons-google.png");
+}
+
+.ui-icon-huaban {
+    background-image: url("../images/footer-icons-huaban.png");
+}
+
+.ui-icon-renren {
+    background-image: url("../images/footer-icons-renren.png");
+}
+
+.ui-icon-diandian {
+    background-image: url("../images/footer-icons-diandian.png");
+}
+
+.ui-icon-weixin {
+    background-image: url("../images/footer-icons-weixin.png");
+}
+
+.ui-icon-twi {
+    background-image: url("../images/footer-icons-twitter.png");
+}
+

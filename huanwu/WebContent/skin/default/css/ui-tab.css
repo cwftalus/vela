@@ -1,0 +1,228 @@
+/**
+* @author:wkylin [wkylin@github.com]
+* @name: ui-tab
+* @overview: ui-tab
+* @require: null
+*/
+.ui-tab {
+    position: relative;
+    *zoom: 1;
+}
+
+.ui-tab-trigger {
+    height: 36px;
+    background-color: #d2e1ee;
+}
+
+.ui-tab-trigger ul {
+    float: left;
+    height: 100%;
+}
+
+.ui-tab-title {
+    float: left;
+    font-size: 14px;
+    padding: 7px 20px 0 0;
+    font-weight: 700;
+}
+
+.ui-tab-trigger-item {
+    position: relative;
+    bottom: -1px;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    padding: 0 0 0 0;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ui-tab-trigger-item span {
+    float: left;
+    padding: 7px 20px 0;
+    height: 23px;
+    color: #4D4D4D;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.ui-tab-trigger-item-current {
+    margin: 5px 0 0 21px;
+    background-color: #fff;
+}
+
+.ui-tab-trigger-item-current span {
+    padding: 0 20px 0;
+    font-weight: 700;
+}
+
+.ui-tab-ctn {
+}
+
+.ui-tab-ctn-item {
+    display: none;
+}
+
+.ui-tab-ctn-item-current {
+    display: block;
+}
+
+.ui-list {
+    margin-bottom: 30px;
+}
+
+.ui-list-item {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px dotted #d6d6d6;
+}
+
+.ui-list-item h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ui-list-item-box img {
+    display: block;
+    float: left;
+}
+
+.ui-list-item-cnt {
+    padding-left: 110px;
+}
+
+.ui-list-item-cnt p {
+    padding: 5px 0;
+    color: red;
+}
+
+.ui-list-action {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: block;
+}
+
+.ui-list-action a {
+    display: block;
+    color: #666;
+}
+
+.ui-list-action a:hover {
+    color: #666;
+}
+
+.ui-tab-add-title .ui-tab-trigger {
+    background-color: #fcf9ef;
+    border-bottom: 2px solid #fe9124;
+}
+
+.ui-tab-add-title .ui-tab-trigger-item {
+    border: 2px solid #fdc589;
+    border-bottom: 0;
+    margin-right: 10px;
+}
+
+.ui-tab-add-title .ui-tab-trigger-item {
+    bottom: -4px;
+}
+
+.ui-tab-add-title .ui-tab-trigger-item span {
+    line-height: 20px;
+}
+
+.ui-tab-add-title .ui-tab-trigger-item-current {
+    background-color: #FFFFFF;
+    border: 2px solid #fe9124;
+    border-bottom: none;
+    margin: 2px 10px 0;
+}
+
+.ui-tab-add-title  .ui-tab-trigger-item-current span {
+    padding: 5px 20px;
+}
+
+.ui-tab-add-title .ui-tab-ctn-item {
+    padding: 20px;
+}
+
+.ui-list-bank {
+    margin: 10px 0;
+}
+
+.ui-list-bank input {
+    vertical-align: middle;
+}
+
+.bank-name {
+    border: 1px solid #DEDEDE;
+    display: inline-block;
+    height: 19px;
+    padding: 5px 20px;
+}
+
+.cashier-bank {
+    float: left;
+    display: inline;
+    margin: 0 15px 15px 0;
+}
+
+.bank-ccb {
+    width: 100px;
+    height: 24px;
+    *line-height: 38px;
+    _line-height: 38px;
+    background: url("../images/bank-ccb.png") 0 0 no-repeat transparent;
+    overflow: hidden;
+}
+
+.ui-step-next {
+    width: 98px;
+    height: 33px;
+    background: url("../images/ui-step-next.png") 0 0 no-repeat transparent;
+}
+
+.cashier-confirm-way {
+    border-top: 2px solid #fe9124;
+    padding: 20px;
+}
+
+.ui-way-left {
+    width: 90px;
+    display: inline;
+    float: left;
+    font-size: 16px;
+}
+
+.ui-way-left span {
+    display: block;
+    margin-top: 7px;
+}
+
+.ui-way-right {
+    width: 660px;
+    display: inline;
+    float: right;
+}
+
+.cashier-num {
+    border: 1px solid #b6d1dc;
+    padding: 3px;
+    width: 100px;
+}
+
+.cashier-go {
+    width: 168px;
+    height: 33px;
+    background: url("../images/cashier-go.png") 0 0 no-repeat transparent;
+    text-indent: -9999em;
+    overflow: hidden;
+    margin:40px 0;
+    cursor: pointer;
+}
+
+
+
+

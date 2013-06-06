@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 数据映射配置 -->
+<mapper namespace="entitiesMap">
+
+	<resultMap type="com.huanwu.entity.Users" id="usersResultMap">
+		<result property="userid" column="userid"/>
+		<result property="username" column="username"/>
+		<result property="password" column="password"/>
+		<result property="email" column="email"/>
+		<result property="realname" column="realname"/>
+		<result property="phone" column="phone"/>
+		<result property="mobile" column="mobile"/>
+		<result property="status" column="status"/>
+	</resultMap>
+	
+</mapper>

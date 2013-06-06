@@ -1,0 +1,54 @@
+
+.ui-message {
+    font-size: 12px;
+    width: 600px;
+    margin: 0 auto;
+    padding:30px 50px;
+}
+
+
+.ui-message-success {
+    background: url("../images/ui-msessage-success.png") no-repeat scroll 0 43px transparent;
+}
+
+
+.ui-message-title {
+    color:#4a8432;
+    font: 32px/1.5 '\5fae\8f6f\96c5\9ed1','\5b8b\4f53', tahoma, arial, 'Hiragino Sans GB';
+}
+
+.ui-message-explain {
+    color: #333;
+    margin: 4px 0 0;
+    padding: 0;
+}
+
+.ui-message-explain-other {
+    color: #4d4d4d;
+    margin: 30px 0 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.gowhere-lista,
+.gowhere-listb,
+.gowhere-listc{
+    display:block;
+    float:left;
+    margin-right:15px;
+    text-indent: -9999em;
+    height:32px;
+}
+.gowhere-lista{
+    width:209px;
+    background: url("../images/gowhere-lista.png") 0 0 no-repeat transparent;
+}
+.gowhere-listb{
+    width:105px;
+    background: url("../images/gowhere-listb.png") 0 0 no-repeat transparent;
+}
+.gowhere-listc{
+    width:105px;
+    background: url("../images/gowhere-listc.png") 0 0 no-repeat transparent;
+}
+
